@@ -1,0 +1,72 @@
+ <!-- 
+    Introdução ao html
+    HyperText Markup Language
+    Linguagem de Marcação(tags) de Hipertexto(texto com hiperlink)
+-->
+
+
+<!DOCTYPE html><!--Define que estamos utilizando o html5-->
+<html><!--Tag raíz, tag pai ou nó-->
+    <!--Tag head é tag filha da html e irmã da 'body'. Ela permite alterar o título da 'aba'-->
+    <head>
+        <title>Cintia Amaro - DoWhile 2021</title>
+        
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+    </head>
+    
+    <body>
+
+     <main>
+        <div class="content">  
+            <div class="avatar">
+
+                <span>
+                    <img src="images/carimbo.svg" alt="Carimbo branco com símbolo Rocketseat"/>
+                </span> 
+
+                <img id="userImage" src="images/cintia.jpg" alt="Foto pessoal de Cintia Amaro"/>
+               
+            </div>
+            
+            <h1 id="userName" > Catarina</h1>
+            
+            <a id="userLink" href="https://github.com/" target="_blank">
+                <img src="images/github.svg" alt="Ícone do GitHub" ><span id=userGit>catarina</span> 
+            </a>
+            
+            <p id="userBio">Systems analysis and development Student & Journalist specializing in Digital Communication and Marketing</p>
+            
+            <ul id="socialLinks">
+                <li class="youtube">
+                    <a href="http://youtube.com/cintiamaro"  target="_blank">
+                        <img src="images/youtube.svg" alt="Ícone Youtube" />
+                    </a>
+                </li>
+                <li class="facebook">
+                    <a href="http://facebook.com/cintiamaro"  target="_blank">
+                        <img src="images/facebook.svg" alt="Ícone Facebook"/>
+                    </a>
+                </li>
+                <li class="instagram">
+                    <a href="http://instagram.com/cintiamarod"  target="_blank">
+                        <img src="images/instagram.svg" alt="Ícone Instagram"/>
+                    </a>
+                </li>
+                <li class="twitter">
+                    <a href="http://twitter.com/cintiamaro"  target="_blank">
+                        <img src="images/twitter.svg" alt="Ícone Twitter"/>
+                    </a>
+                </li>
+            </ul>
+        </div> 
+
+     </main>
+    <script src="main.js"></script>    
+    </body>
+</html>
